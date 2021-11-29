@@ -7,7 +7,8 @@ const start = async () => {
   server.register(headerPlugin);
   server.register(helixPlugin as any);
   await server.listen('3002');
-  console.log('🚀 Server is available at http://localhost:3002');
+  console.log(`Graphql Gateway is running at http://localhost:3002`);
+  console.log(`Graphiql at http://localhost:3002/graphql`);
 };
 
 start();

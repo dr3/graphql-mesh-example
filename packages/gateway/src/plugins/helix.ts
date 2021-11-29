@@ -33,7 +33,7 @@ export default async (
           .code(200)
           .type('text/html')
           .send(renderGraphiQL({
-            defaultQuery: 'query GetStationsQuery {\n  getStations{\n		name\n  }\n}',
+            defaultQuery: 'query StationsQuery {\n  v1_stations{\n    id\n		name\n  }\n}',
             headers: JSON.stringify(
               {
                 'X-Client-Name': 'Website',
