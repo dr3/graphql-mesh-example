@@ -137,9 +137,7 @@ journeyRouter.get("/", (request, response) => {
         "departAt": dateAddHours(new Date("2021-01-26T13:29:00.000Z"), i),
         "arriveAt": dateAddHours(new Date("2021-01-26T13:29:00.000Z"), i + 3),
         "price": (Math.floor(Math.random() * (10000 - 100) + 100) / 100),
-    }))
-
-    console.log(JSON.stringify(output, null, 4))
+    }));
 
     return response.send(output);
 });
