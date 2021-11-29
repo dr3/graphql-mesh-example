@@ -1,0 +1,62 @@
+merger: bare
+sources:
+  - name: ExampleRestAPI
+    handler:
+      openapi:
+        source: http://localhost:3001/swagger/specs.json
+        baseUrl: http://localhost:3001
+        operationHeaders:
+          "X-Client-Name": "{context.request.clientName}"
+          "X-Auth-Token": "{context.request.authToken}"
+    transforms:
+      - filterSchema:
+          mode: bare
+          filters:
+            - Query.*.!{xClientName, xAuthToken}
+            - Mutation.*.!{xClientName, xAuthToken}
+      - rename:
+          mode: bare
+          renames:
+            - from:
+                type: Query
+                field: getBasketsId
+              to:
+                type: Query
+                field: basket
+            - from:
+                type: Query
+                field: getSearch
+              to:
+                type: Query
+                field: search
+            - from:
+                type: Query
+                field: getStations
+              to:
+                type: Query
+                field: stations
+            - from:
+                type: Query
+                field: getStationsId
+              to:
+                type: Query
+                field: station
+            - from:
+                type: Query
+                field: postBasketsCreate
+              to:
+                type: Query
+                field: basket
+      - replaceField:
+          replacements:
+            - from:
+                type: Query
+                field: stations
+              to:
+                type: StationsResponse
+                field: stations
+              scope: hoistValue
+      - prefix:
+          mode: bare
+          value: v1_
+          includeRootOperations: true

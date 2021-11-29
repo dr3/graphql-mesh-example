@@ -1,0 +1,30 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-mesh-artifacts": "mesh build -r ts-node/register/transpile-only --dir src",
+    "clean": "rimraf dist src/.mesh",
+    "compile": "tsc && copyfiles -a -u 1 -e \"**/*.ts\" \"src/.mesh/**/*\" \"src/**/*.graphql\" dist",
+    "start": "yarn clean & yarn build-mesh-artifacts && ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@envelop/core": "^1.6.2",
+    "@envelop/disable-introspection": "^1.2.1",
+    "@envelop/persisted-operations": "^2.2.1",
+    "@graphql-mesh/cli": "^0.44.1",
+    "@graphql-mesh/openapi": "^0.21.3",
+    "@graphql-mesh/transform-filter-schema": "^0.14.1",
+    "@graphql-mesh/transform-rename": "^0.11.1",
+    "@graphql-mesh/transform-prefix": "^0.9.1",
+    "@graphql-mesh/transform-replace-field": "^0.3.1",
+    "copyfiles": "^2.4.1",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.24.1",
+    "fastify-cookie": "^5.4.0",
+    "graphql": "^16.0.1",
+    "graphql-helix": "^1.10.3",
+    "js-yaml": "^4.1.0"
+  }
+}

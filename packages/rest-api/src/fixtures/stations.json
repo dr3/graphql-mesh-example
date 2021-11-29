@@ -1,0 +1,258 @@
+[
+    {
+        "id": "ab17d211-1e9c-433e-848e-fcc48452294b",
+        "name": "Birmingham New Street",
+        "code": "BHM",
+        "countryCode": "GB",
+        "latitude": -68.969238,
+        "longitude": 97.112376
+    },
+    {
+        "id": "6920c74c-ee69-47d3-b0cf-84d4998f8781",
+        "name": "Blundellsands & Crosby",
+        "code": "BLC",
+        "countryCode": "GB",
+        "latitude": 45.626207,
+        "longitude": -67.195745
+    },
+    {
+        "id": "131b4532-535b-4284-90e1-22117f0c9fde",
+        "name": "Brighton",
+        "code": "BTN",
+        "countryCode": "GB",
+        "latitude": -86.234838,
+        "longitude": 16.309344
+    },
+    {
+        "id": "b2ccbb92-e50e-4741-88e1-e7b7faa8fe16",
+        "name": "Bristol Temple Meads",
+        "code": "BRI",
+        "countryCode": "GB",
+        "latitude": 15.853675,
+        "longitude": 82.132205
+    },
+    {
+        "id": "274e4de3-b860-4e2a-b05c-41e2e500df21",
+        "name": "Crewe",
+        "code": "CRE",
+        "countryCode": "GB",
+        "latitude": 59.633707,
+        "longitude": -147.667878
+    },
+    {
+        "id": "8b660775-3c19-4c03-a867-8ba3839ce45d",
+        "name": "Edinburgh (Waverly)",
+        "code": "EDB",
+        "countryCode": "GB",
+        "latitude": -65.642084,
+        "longitude": -139.437635
+    },
+    {
+        "id": "281cdec9-1fe2-4cc5-a4b9-ac3d9d29439b",
+        "name": "Farringdon",
+        "code": "ZFD",
+        "countryCode": "GB",
+        "latitude": -56.363334,
+        "longitude": 54.67393
+    },
+    {
+        "id": "b3b62c0f-6943-4883-8e3b-cccde29bf1a8",
+        "name": "Flowery Field",
+        "code": "FLF",
+        "countryCode": "GB",
+        "latitude": 8.581745,
+        "longitude": -35.285833
+    },
+    {
+        "id": "1313dd61-91ff-4cd4-bdc4-890d212e1648",
+        "name": "Freshfield",
+        "code": "FRE",
+        "countryCode": "GB",
+        "latitude": -16.468374,
+        "longitude": 67.356247
+    },
+    {
+        "id": "755fa10b-fa28-49c7-931f-09431e59f90b",
+        "name": "Freshford",
+        "code": "FFD",
+        "countryCode": "GB",
+        "latitude": 3.099974,
+        "longitude": 160.178846
+    },
+    {
+        "id": "2e9a9132-354b-4823-9ba2-79cbf2aa41e4",
+        "name": "Glasgow Airport",
+        "code": "GGT",
+        "countryCode": "GB",
+        "latitude": -11.920489,
+        "longitude": 157.364582
+    },
+    {
+        "id": "c3e7d30c-0ddc-42a1-bbd4-c0575cdcd1b6",
+        "name": "Glasgow Central",
+        "code": "GLC",
+        "countryCode": "GB",
+        "latitude": -55.152006,
+        "longitude": 35.408429
+    },
+    {
+        "id": "fd6ea59c-805a-450c-ad03-e261ea1fe657",
+        "name": "Grimsby Town",
+        "code": "GMB",
+        "countryCode": "GB",
+        "latitude": -2.827808,
+        "longitude": 38.52284
+    },
+    {
+        "id": "6cbc8a08-7dc2-4ccb-873e-5805cd658669",
+        "name": "Havant",
+        "code": "HAV",
+        "countryCode": "GB",
+        "latitude": 77.588103,
+        "longitude": 12.018045
+    },
+    {
+        "id": "2c9eaa3c-eb19-44e0-b073-bd2d88e3900b",
+        "name": "Heathrow Terminal 4 (Rail Station Only)",
+        "code": "HAF",
+        "countryCode": "GB",
+        "latitude": -3.177299,
+        "longitude": -126.877893
+    },
+    {
+        "id": "4d6a51cb-b495-4b2c-a229-15e0ded4ce16",
+        "name": "Kings Langley",
+        "code": "KGL",
+        "countryCode": "GB",
+        "latitude": 64.637054,
+        "longitude": -82.837478
+    },
+    {
+        "id": "5657a3ed-557a-45d2-8b6d-c2e377fa7bc5",
+        "name": "Leeds",
+        "code": "LDS",
+        "countryCode": "GB",
+        "latitude": 18.835326,
+        "longitude": -124.599893
+    },
+    {
+        "id": "db3f802d-b4fe-4d33-a544-0847ecb6ef7c",
+        "name": "Lichfield City",
+        "code": "LIC",
+        "countryCode": "GB",
+        "latitude": -85.514048,
+        "longitude": -114.613738
+    },
+    {
+        "id": "c3607277-a934-4ce1-93d8-70f0dba89a28",
+        "name": "Lichfield Trent Valley",
+        "code": "LTV",
+        "countryCode": "GB",
+        "latitude": 83.621939,
+        "longitude": -111.059304
+    },
+    {
+        "id": "0071bc21-b2b9-4478-af6b-18abede1576f",
+        "name": "Liverpool Lime Street",
+        "code": "LIV",
+        "countryCode": "GB",
+        "latitude": -23.157772,
+        "longitude": 98.735947
+    },
+    {
+        "id": "6e9d3172-a2a7-4c54-b58d-c315996466b4",
+        "name": "London",
+        "code": "LON",
+        "countryCode": "GB",
+        "latitude": 74.088246,
+        "longitude": 131.195318
+    },
+    {
+        "id": "5a372e85-65b3-4429-9176-cac130e991cf",
+        "name": "London Blackfriars",
+        "code": "BFR",
+        "countryCode": "GB",
+        "latitude": 72.397565,
+        "longitude": 178.084687
+    },
+    {
+        "id": "9eb1869e-f953-4f97-b973-c3b73e765c97",
+        "name": "London Bridge",
+        "code": "LBG",
+        "countryCode": "GB",
+        "latitude": -82.259424,
+        "longitude": 173.511884
+    },
+    {
+        "id": "5ba34aab-b3ae-4ff5-85d9-19ba03a16280",
+        "name": "London Euston",
+        "code": "EUS",
+        "countryCode": "GB",
+        "latitude": -9.179175,
+        "longitude": -25.47021
+    },
+    {
+        "id": "3257ce40-5bf3-4cb0-94f9-935ac2c22d41",
+        "name": "London Fenchurch Street",
+        "code": "FST",
+        "countryCode": "GB",
+        "latitude": -46.429021,
+        "longitude": 63.405666
+    },
+    {
+        "id": "1f42c50e-fae8-4a31-b7ff-5b5a37cd174a",
+        "name": "London Kings Cross",
+        "code": "KGX",
+        "countryCode": "GB",
+        "latitude": 35.448852,
+        "longitude": 19.367623
+    },
+    {
+        "id": "39aafe00-5596-4d5a-9f6b-3befc85d9cc5",
+        "name": "London Liverpool Street",
+        "code": "LST",
+        "countryCode": "GB",
+        "latitude": 18.770662,
+        "longitude": -166.507888
+    },
+    {
+        "id": "addd900b-f4c8-416f-9fa0-19e4f2037e2d",
+        "name": "London Paddington",
+        "code": "PAD",
+        "countryCode": "GB",
+        "latitude": -5.684571,
+        "longitude": -78.30312
+    },
+    {
+        "id": "125d5f9e-dfe5-46a9-83ce-5698dd7c4f93",
+        "name": "Macclesfield",
+        "code": "MAC",
+        "countryCode": "GB",
+        "latitude": 45.567913,
+        "longitude": -149.797574
+    },
+    {
+        "id": "96c4f240-4e04-4000-adbf-b09ea932526c",
+        "name": "Manchester Piccadilly",
+        "code": "MAN",
+        "countryCode": "GB",
+        "latitude": -65.708408,
+        "longitude": 164.036907
+    },
+    {
+        "id": "946bf494-f64d-48b5-bd71-deca6c74366b",
+        "name": "Newcastle",
+        "code": "NCL",
+        "countryCode": "GB",
+        "latitude": -80.280596,
+        "longitude": -112.898812
+    },
+    {
+        "id": "a8c58280-4c1a-4cec-9653-f0c8140c8f7d",
+        "name": "Norbury",
+        "code": "NRB",
+        "countryCode": "GB",
+        "latitude": -76.696139,
+        "longitude": -80.459132
+    }
+]

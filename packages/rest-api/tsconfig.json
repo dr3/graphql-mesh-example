@@ -1,0 +1,16 @@
+{
+    "include": ["src"], 
+    "compilerOptions": {
+      "module": "commonjs", 
+      "esModuleInterop": true, 
+      "skipLibCheck": true, 
+      "forceConsistentCasingInFileNames": true, 
+      "resolveJsonModule": true, 
+      "lib": ["es6", "dom"], 
+      "target": "es6",  
+      "allowJs": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "noImplicitAny": true
+    }
+  }

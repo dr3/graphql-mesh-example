@@ -1,0 +1,13 @@
+{
+  "name": "graphql-mesh-example",
+  "version": "1.0.0",
+  "description": "Example of mesh and envelop to create a gateway to a REST api",
+  "main": "index.js",
+  "repository": "git@github.com:dr3/graphql-mesh-example.git",
+  "author": "Drew McMillan <drew@mcmill.co.uk>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
+}
