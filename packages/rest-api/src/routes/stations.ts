@@ -15,7 +15,7 @@
  *             type: string
  *             description: Short letter code of the station
  *           countryCode:
- *             type: boolean
+ *             type: string
  *             description: The ISO 3166-1 alpha-2 country code of the station
  *           latitude:
  *             type: number
